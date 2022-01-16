@@ -1,3 +1,3 @@
 # Blockchain with Python
 
-Scripts from different online courses.
+Basic blockchain course from [Codecademy](https://www.codecademy.com/learn/introduction-to-blockchain)
