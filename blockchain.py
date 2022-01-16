@@ -29,6 +29,10 @@ class Blockchain:
         self.chain.append(new_block)
         return proof, new_block
 
+    def last_block(self) -> Block:
+        """Show last block in the chain"""
+        return self.chain[-1]
+
     def validate_chain(self):
         for i in range(1, len(self.chain)):
             current = self.chain[i]
